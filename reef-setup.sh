@@ -291,7 +291,7 @@ To monitor system resource utilization and running processes:
 ========================================================================
 To view the list of peer connections, status of your masternode, 
 sync status etc. in real-time, run the nodemon.sh script:
-                 ${YELLOW}nodemon.sh${NC}
+                 ${YELLOW}nodemonreef.sh${NC}
 or just type 'node' and hit <TAB> to autocomplete script name.
 ========================================================================
 Enjoy your Reef Masternode and thanks for using this setup script!
@@ -302,6 +302,6 @@ Author: Dwigt007
 "
 delay 30
 # Run nodemonreef.sh
-nodemonrref.sh
+bash nodemonreef.sh
 
 # EOF
