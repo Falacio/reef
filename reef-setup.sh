@@ -132,9 +132,11 @@ else
 fi
 
  #Installing Daemon
- cd ~
-wget https://github.com/reefcoin-io/reefcore/releases/download/v0.5.1/reefcore_linux.zip
+
+cd ~/reef/
+wget https://github.com/reefcoin-io/reefcore/releases/download/v0.6.0/reefcore_linux.zip
 unzip reefcore_linux.zip
+rm reefcore_linux.zip
  
  stop_daemon
  
@@ -189,9 +191,12 @@ maxconnections=64
 externalip=$publicip
 masternode=1
 masternodeprivkey=$genkey
+addnode=217.69.6.220
 addnode=91.121.166.208
 addnode=159.89.90.181
 addnode=37.187.108.47
+addnode=108.61.132.69
+addnode=107.191.41.255
 
 EOF
 
